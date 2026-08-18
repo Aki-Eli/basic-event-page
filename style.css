@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1eef0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#pageContainer {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(192, 216, 227);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#name {
+    background-color: #92e3e9;
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#mainHeading {
+    color: rgb(5, 144, 144);
+}
+
+#nameInput {
+    background-color: #d1eef0;
+    border-radius: 5px;
+    border-color: #d1eef0;
+    height: 30px;
+    width: auto;
+}
+
+div {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;  
+    gap: 10px;                
+    flex-wrap: nowrap;
+} 
+
+button {
+    padding: 6px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#greetingButton {
+    background-color: rgb(229, 135, 255);
+}
+
+#backgroundButton {
+    background-color: rgb(76, 194, 245);
+}
+
+#resetButton {
+    background-color: rgb(243, 80, 80);
+}
+
+#messageArea {
+    height: 60px;
+    width: 300px;
+    background-color: #d1eef0;
+    border-radius: 5px;
+    border-color: #d1eef0;
+    resize: none;
+}
